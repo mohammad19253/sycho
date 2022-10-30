@@ -1,0 +1,23 @@
+.modal-box{
+    width: fit-content;
+    min-width: 500px;
+    min-height: 500px;
+    background-color: #f100006e;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;    
+}
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/Group\ 139.png');
+    background-size: cover;
+}
+.card{
+    min-height: 4rem;
+}
