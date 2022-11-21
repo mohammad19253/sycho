@@ -1,0 +1,33 @@
+.cs-input-container{
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    height: 100%;
+    border-radius:5px;
+  
+}
+.html-input{
+    border: none; 
+    color: white;
+    background: transparent;
+    margin:0;
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.html-input:focus-visible{
+    outline: none !important;
+}
+.html-input:focus-visible .cs-input-container{
+    outline: 1px solid white;
+}
+.html-input[type='number']{
+    width: 100px;
+    text-align: right;
+    min-height: 53px;
+}
+.html-input[type='number']::-webkit-inner-spin-button {
+     margin-left: 10px;
+} 
+   
+  

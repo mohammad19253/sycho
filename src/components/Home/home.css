@@ -2,10 +2,6 @@
     padding: 1rem;
     text-align: center;
     min-height: 80vh;
-    background-image: url('../../images/u.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     justify-content: space-between;
     align-items: center;

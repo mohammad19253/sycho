@@ -1,24 +1,18 @@
 
 .App {
+  background-image: url('/src/images/u.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
   background-color: black;
   min-height: 100vh;
+  padding-bottom: 1rem;
 }
 .primary-btn{
   background-color: black;
   color: white;
-  box-shadow:0px 0px 10px -4px white;
-  border-radius: 4rem;
-  font-size: 18px;
-  padding: 0.5rem 2rem;
-  text-align: center;
- 
-}
-.primary-input{
-  width:100px;
-  border: none;
-  background-color: #111111;
-  color: white;
-  box-shadow:0px 0px 10px -4px white;
+  border: 1px solid #C8C7C7;
   border-radius: 4rem;
   font-size: 18px;
   padding: 0.5rem 2rem;
@@ -26,4 +20,57 @@
  
 }
  
+.p-2{
+  padding:16px;
+}
+.p-1{
+  padding:8px;
+}
+.m-2{
+  margin:16px
+}
+.m-1{
+  margin:8px
+}
+.h-25{
+  height: 25%;
+}
+.h-50{
+  height: 50%;
+}
+.h-75{
+  height: 75%;
+}
+.h-100{
+  height: 100%;
+}
+
+.w-25{
+  width: 25%;
+}
+.w-50{
+  width: 50%;
+}
+.w-75{
+  width: 75%;
+}
+.w-100{
+  width: 100%;
+}
+
+.text-align-end{
+ text-align: end;
+}
+.text-align-center{
+  text-align: center;
+ }
+ .text-align-start{
+  text-align: start;
+ }
+ .cu-box-black{
+  background-color: #00000061;
+  border: 1px solid #386BD2;
+  border-radius: 5px;
+  margin: 1rem 0;
+ }
  
