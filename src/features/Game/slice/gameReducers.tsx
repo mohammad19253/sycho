@@ -1,6 +1,7 @@
-//gameReducers.js
 import { createSlice } from '@reduxjs/toolkit'
-import { GAME_TYPES } from '../../components/Game/constant/gameTypes'
+const GAME_TYPES={
+  AUTO_WORDS_SELECT :" auto world select " ,
+} 
 const initialState = {
   words: [],
   psychoWord: '',
@@ -8,7 +9,6 @@ const initialState = {
   playersCount: 0,
   type:GAME_TYPES.AUTO_WORDS_SELECT
 }
-
 export const gameReducers = createSlice({
   name: 'game',
   initialState,
